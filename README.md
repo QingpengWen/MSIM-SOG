@@ -10,7 +10,7 @@ Qingpeng Wen, Bi Zeng, Pengfei Wei, Huiting Hu.
 
 
 
-![](Figures\MSIM-SOG.png)
+![](.\Figures\MSIM-SOG.png)
 
 
 
