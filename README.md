@@ -10,7 +10,7 @@ Qingpeng Wen, Bi Zeng, Pengfei Wei, Huiting Hu.
 
 
 
-![](D:\学习资料\人工智能\人工智能论文\Multi-slot intent joint modeling for Chinese SLU（多槽意图联合建模）\MSIM-SOG\MSIM-SOG\Figures\MSIM-SOG.png)
+![](.\Figures\MSIM-SOG.png)
 
 
 
