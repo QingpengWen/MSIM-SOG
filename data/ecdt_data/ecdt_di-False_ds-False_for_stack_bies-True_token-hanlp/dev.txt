@@ -1,0 +1,3822 @@
+打 O B
+开 O E
+汽 B-name B
+车 I-name E
+之 I-name S
+家 E-name S
+LAUNCH
+
+给 O S
+我 O S
+打 O B
+开 O E
+一 O B
+下 O E
+q B-name B
+q E-name E
+LAUNCH
+
+百 B-name B
+度 I-name E
+浏 I-name B
+览 I-name I
+器 E-name E
+打 O B
+开 O E
+LAUNCH
+
+搜 O B
+索 O E
+手 O B
+机 O E
+办 B-name B
+公 I-name E
+软 I-name B
+件 E-name E
+QUERY
+
+打 O B
+开 O E
+q B-name B
+q I-name E
+同 I-name B
+步 I-name E
+助 I-name B
+手 E-name E
+LAUNCH
+
+去 O S
+深 B-endLoc_city B
+圳 E-endLoc_city E
+怎 O B
+么 O E
+坐 O B
+车 O E
+？ O S
+ROUTE
+
+在 O S
+合 B-Src B
+肥 E-Src E
+怎 O B
+么 O E
+坐 O S
+去 O S
+南 B-Dest B
+京 E-Dest E
+的 O S
+汽 O B
+车 O E
+QUERY
+
+搜 O B
+索 O E
+合 B-theatre B
+肥 I-theatre E
+左 I-theatre B
+岸 I-theatre E
+电 I-theatre B
+影 I-theatre I
+城 E-theatre E
+。 O S
+QUERY
+
+老 B-name B
+马 E-name E
+的 O S
+电 O B
+话 O E
+是 O S
+多 O B
+少 O E
+QUERY
+
+蛋 B-dishName B
+黄 I-dishName E
+焗 I-dishName S
+薯 I-dishName B
+条 E-dishName E
+怎 O B
+么 O E
+做 O S
+QUERY
+
+把 O S
+孟 B-name B
+蕾 E-name E
+的 O S
+电 O B
+话 O E
+发 O S
+给 O S
+陈 B-receiver B
+姬 E-receiver E
+SENDCONTACTS
+
+我 O S
+说 O S
+吃 O S
+飞 B-ingredient B
+蟹 E-ingredient E
+， O S
+怎 O B
+么 O E
+做 O S
+？ O S
+QUERY
+
+小 O S
+白 B-dishName B
+菜 I-dishName E
+拌 I-dishName S
+豆 I-dishName B
+腐 E-dishName E
+怎 O B
+么 O E
+做 O S
+呀 O S
+？ O S
+QUERY
+
+帮 O S
+我 O S
+搜 O B
+索 O E
+一 O B
+下 O E
+红 B-dishName B
+烧 I-dishName E
+排 I-dishName B
+骨 E-dishName E
+。 O S
+QUERY
+
+红 B-dishName B
+烧 I-dishName I
+肉 E-dishName E
+的 O S
+做 O B
+法 O E
+啊 O S
+！ O S
+QUERY
+
+用 O S
+电 O B
+压 B-utensil I
+力 I-utensil I
+锅 E-utensil E
+怎 O B
+么 O E
+蒸 B-dishName B
+米 I-dishName E
+粉 I-dishName B
+肉 E-dishName E
+。 O S
+QUERY
+
+用 O S
+菜 B-ingredient B
+籽 I-ingredient I
+油 E-ingredient E
+做 O S
+面 B-dishName B
+包 E-dishName E
+QUERY
+
+江 O B
+苏 O I
+路 O E
+红 B-ingredient B
+薯 I-ingredient I
+粉 E-ingredient E
+怎 O B
+么 O E
+做 O S
+好 O S
+吃 O S
+？ O S
+QUERY
+
+不 O S
+懂 O B
+饭 S-dishName E
+的 O S
+做 O B
+法 O E
+。 O S
+QUERY
+
+鸡 B-ingredient B
+爪 E-ingredient E
+怎 O B
+么 O E
+炒 O S
+？ O S
+QUERY
+
+讯 O B
+飞 O E
+语 O B
+点 O E
+请 O S
+你 O S
+搜 O B
+索 O E
+一 O B
+下 O E
+番 B-dishName B
+茄 I-dishName E
+炒 I-dishName B
+蛋 E-dishName E
+怎 O B
+么 O E
+做 O S
+？ O S
+QUERY
+
+福 B-ingredient B
+寿 I-ingredient I
+鱼 E-ingredient E
+怎 O B
+么 O E
+煮 O S
+比 O B
+较 O E
+好 O S
+吃 O S
+？ O S
+QUERY
+
+今 B-datetime_time B
+晚 E-datetime_time E
+看 O S
+什 O B
+么 O E
+电 B-category B
+影 E-category E
+？ O S
+QUERY
+
+北 B-tvchannel B
+京 I-tvchannel E
+青 I-tvchannel B
+年 I-tvchannel E
+频 I-tvchannel B
+道 E-tvchannel E
+谁 B-name S
+在 I-name S
+说 E-name S
+QUERY
+
+搜 O S
+一 O B
+下 O E
+今 B-datetime_date B
+天 E-datetime_date E
+中 B-datetime_time B
+午 E-datetime_time E
+开 O B
+始 O E
+放 O B
+郭 B-name I
+的 I-name I
+秀 E-name E
+QUERY
+
+回 O B
+放 O E
+昨 B-datetime_time B
+晚 E-datetime_time E
+的 O S
+焦 B-name B
+点 I-name E
+访 I-name B
+谈 E-name E
+LOOK_BACK
+
+贵 B-tvchannel B
+州 I-tvchannel E
+卫 I-tvchannel B
+视 E-tvchannel E
+今 B-datetime_time B
+晚 E-datetime_time E
+看 O S
+什 O B
+么 O E
+电 B-category B
+视 I-category I
+剧 E-category E
+？ O S
+QUERY
+
+十 B-startDate_date B
+月 I-startDate_date E
+四 I-startDate_date S
+号 E-startDate_date S
+从 O S
+广 B-startLoc_city B
+州 E-startLoc_city E
+到 O S
+北 B-endLoc_city B
+京 E-endLoc_city E
+的 O S
+飞 O B
+机 O I
+票 O E
+多 O B
+少 O E
+钱 O S
+QUERY
+
+明 B-startDate_date B
+天 E-startDate_date E
+去 O S
+徐 B-endLoc_city B
+州 E-endLoc_city E
+的 O S
+航 O B
+班 O E
+QUERY
+
+去 O S
+桂 B-endLoc_city B
+林 E-endLoc_city E
+的 O S
+航 O B
+班 O E
+怎 O B
+样 O E
+QUERY
+
+肠 B-keyword B
+胃 I-keyword I
+炎 E-keyword E
+怎 O B
+么 O E
+治 O S
+？ O S
+QUERY
+
+杭 B-startLoc_city B
+州 E-startLoc_city E
+到 O S
+上 B-endLoc_city B
+海 E-endLoc_city E
+ROUTE
+
+去 O S
+华 B-endLoc_poi B
+强 I-endLoc_poi E
+北 E-endLoc_poi S
+的 O S
+路 O S
+怎 O B
+么 O E
+走 O S
+ROUTE
+
+中 B-category S
+超 E-category S
+比 O B
+赛 O E
+。 O S
+QUERY
+
+发 O B
+短 O I
+信 O E
+给 O S
+王 B-name B
+勋 I-name I
+连 E-name E
+说 O S
+我 B-content S
+很 I-content S
+好 E-content S
+SEND
+
+点 O S
+一 O S
+首 O S
+爱 B-song B
+情 I-song E
+买 I-song S
+卖 E-song S
+来 O S
+听 O B
+听 O E
+PLAY
+
+给 O S
+我 O S
+放 O S
+一 O S
+首 O S
+最 B-song S
+炫 I-song S
+民 I-song B
+族 I-song I
+风 E-song E
+。 O S
+PLAY
+
+帮 O S
+我 O S
+查 O S
+一 O S
+查 O S
+今 B-datetime_date B
+天 E-datetime_date E
+的 O S
+新 O B
+闻 O E
+。 O S
+PLAY
+
+找 O B
+找 O E
+三 B-author B
+毛 E-author E
+的 O S
+爱 B-category B
+情 E-category E
+小 O B
+说 O E
+QUERY
+
+给 O S
+我 O S
+背 O S
+一 O S
+首 O S
+诗 O S
+。 O S
+DEFAULT
+
+尽 B-keyword S
+在 I-keyword S
+不 I-keyword B
+言 I-keyword E
+中 E-keyword S
+下 B-queryField S
+一 I-queryField S
+句 E-queryField S
+是 O S
+什 O B
+么 O E
+？ O S
+QUERY
+
+背 O S
+唐 S-dynasty B
+诗 O E
+李 B-author B
+白 E-author I
+侠 B-name E
+客 I-name B
+行 E-name E
+QUERY
+
+说 O S
+个 O S
+谜 B-category B
+语 E-category E
+给 O S
+我 O S
+猜 O B
+猜 O E
+。 O S
+QUERY
+
+查 O B
+寻 O E
+轻 B-name B
+舞 I-name I
+风 E-name E
+股 O B
+票 O E
+QUERY
+
+请 O S
+打 O S
+电 O B
+话 O E
+给 O S
+沈 B-name B
+晨 I-name I
+浩 E-name E
+DIAL
+
+开 B-startLoc_city B
+封 E-startLoc_city E
+到 O S
+信 B-endLoc_city B
+阳 E-endLoc_city E
+的 O S
+火 O B
+车 O E
+QUERY
+
+帮 O S
+我 O S
+查 O S
+下 O S
+上 B-startLoc_city B
+海 E-startLoc_city E
+到 O S
+合 B-endLoc_city B
+肥 E-endLoc_city E
+的 O S
+火 O B
+车 O E
+QUERY
+
+帮 O S
+我 O S
+查 O S
+一 O B
+下 O E
+宁 B-startLoc_city B
+波 E-startLoc_city E
+到 O S
+郑 B-endLoc_city B
+州 E-endLoc_city E
+的 O S
+火 O B
+车 O E
+QUERY
+
+翻 O B
+译 O E
+光 B-content B
+大 I-content E
+银 I-content B
+行 E-content E
+TRANSLATION
+
+你 B-content S
+曾 I-content S
+爱 I-content S
+过 I-content S
+我 I-content S
+吗 E-content S
+用 O S
+英 B-target B
+语 E-target E
+怎 O B
+么 O E
+说 O S
+TRANSLATION
+
+北 B-name B
+京 I-name E
+二 E-name S
+PLAY
+
+C B-name B
+C I-name I
+T I-name I
+V I-name E
+新 I-name B
+闻 E-name E
+PLAY
+
+要 O S
+看 O S
+特 B-name B
+种 I-name I
+兵 E-name E
+QUERY
+
+找 O S
+一 O B
+下 O E
+非 B-name B
+诚 I-name E
+勿 I-name S
+扰 E-name S
+娱 B-tag B
+乐 E-tag E
+节 B-category B
+目 E-category E
+QUERY
+
+体 B-name B
+育 I-name E
+赛 I-name B
+事 E-name E
+直 O B
+播 O E
+PLAY
+
+爱 B-name B
+情 I-name E
+工 I-name B
+寓 E-name E
+QUERY
+
+帮 O S
+我 O S
+链 O B
+接 O E
+到 O S
+新 B-name B
+浪 I-name I
+网 E-name E
+OPEN
+
+打 O B
+开 O E
+我 O S
+的 O S
+浏 B-name B
+览 I-name I
+器 E-name E
+LAUNCH
+
+打 O B
+开 O E
+q B-name B
+q I-name E
+浏 I-name B
+览 I-name I
+器 E-name E
+LAUNCH
+
+打 O B
+开 O E
+今 B-name B
+天 I-name E
+朝 I-name B
+记 I-name E
+事 I-name B
+本 E-name E
+软 O B
+件 O E
+LAUNCH
+
+帮 O S
+我 O S
+查 O S
+一 O B
+下 O E
+赣 B-Src B
+州 E-Src E
+到 O S
+厦 B-Dest B
+门 E-Dest E
+的 O S
+汽 O B
+车 O E
+。 O S
+QUERY
+
+把 O S
+莫 B-name B
+若 E-name E
+的 O S
+电 O B
+话 O E
+号 O B
+码 O E
+发 O B
+送 O E
+给 O S
+反 B-receiver B
+面 I-receiver E
+教 I-receiver B
+材 E-receiver E
+SENDCONTACTS
+
+来 O S
+做 O S
+烧 B-dishName B
+卖 E-dishName E
+。 O S
+QUERY
+
+鸡 B-ingredient B
+蛋 E-ingredient E
+怎 O B
+么 O E
+炒 O S
+最 O S
+好 O S
+吃 O S
+？ O S
+QUERY
+
+鲜 B-dishName B
+肉 I-dishName E
+玉 I-dishName B
+米 I-dishName E
+羹 E-dishName S
+怎 O B
+么 O E
+做 O S
+？ O S
+QUERY
+
+汉 B-dishName B
+堡 E-dishName E
+。 O S
+QUERY
+
+回 B-dishName S
+锅 I-dishName B
+肉 E-dishName E
+怎 O B
+么 O E
+做 O S
+啊 O S
+QUERY
+
+煮 O B
+水 B-dishName I
+饺 E-dishName E
+。 O S
+QUERY
+
+中 B-tvchannel B
+央 I-tvchannel E
+三 E-tvchannel S
+今 B-datetime_date B
+天 E-datetime_date E
+有 O S
+什 O B
+么 O E
+节 O B
+目 O E
+QUERY
+
+帮 O S
+我 O S
+查 O S
+下 O B
+下 B-datetime_date E
+周 E-datetime_date B
+演 O E
+新 B-name B
+闻 I-name E
+联 I-name B
+播 E-name E
+QUERY
+
+四 B-tvchannel B
+川 I-tvchannel E
+卫 I-tvchannel B
+视 E-tvchannel E
+频 O B
+道 O E
+的 O S
+节 O B
+目 O I
+单 O E
+QUERY
+
+安 B-tvchannel B
+徽 I-tvchannel E
+卫 I-tvchannel B
+视 E-tvchannel E
+今 B-datetime_time B
+晚 E-datetime_time E
+放 O S
+什 O B
+么 O E
+节 O B
+目 O E
+啊 O S
+？ O S
+QUERY
+
+腹 B-keyword B
+泻 E-keyword E
+。 O S
+QUERY
+
+贫 B-keyword B
+血 E-keyword E
+怎 O B
+么 O E
+治 O S
+？ O S
+QUERY
+
+给 O S
+我 O S
+查 O S
+一 O B
+下 O E
+糖 B-keyword B
+尿 I-keyword I
+病 E-keyword E
+如 O B
+何 O E
+治 O B
+疗 O E
+？ O S
+QUERY
+
+武 B-location_poi B
+汉 I-location_poi E
+理 I-location_poi B
+工 I-location_poi I
+大 I-location_poi I
+学 E-location_poi E
+在 O S
+哪 O S
+POSITION
+
+云 B-location_city B
+浮 E-location_city E
+在 O S
+哪 O B
+里 O E
+POSITION
+
+导 O B
+航 O E
+到 O S
+石 B-endLoc_poi B
+化 I-endLoc_poi E
+小 I-endLoc_poi B
+学 E-endLoc_poi E
+ROUTE
+
+给 O S
+胡 B-name B
+克 E-name I
+发 O E
+短 O B
+信 O E
+SEND
+
+发 O B
+短 O I
+信 O E
+给 O S
+张 B-name B
+全 I-name I
+三 E-name E
+移 B-teleOperator B
+动 E-teleOperator E
+的 O S
+号 O B
+码 O E
+我 B-content S
+今 I-content B
+天 I-content E
+请 I-content S
+他 I-content S
+吃 I-content B
+法 E-content E
+SEND
+
+再 O B
+来 O E
+一 O S
+首 O S
+飞 B-song S
+得 I-song S
+更 I-song S
+高 E-song S
+。 O S
+PLAY
+
+播 O B
+放 O E
+一 O S
+首 O S
+倒 B-song S
+带 E-song B
+来 O E
+听 O S
+一 O S
+听 O S
+PLAY
+
+你 O S
+不 O S
+来 O S
+一 O S
+首 O S
+涛 B-song B
+声 I-song E
+依 I-song B
+旧 E-song E
+， O S
+那 O S
+你 O S
+。 O S
+PLAY
+
+哦 O S
+来 O S
+一 O S
+首 O S
+传 B-song B
+奇 E-song E
+PLAY
+
+我 O S
+想 O S
+听 O S
+最 O B
+新 O E
+军 B-category B
+事 E-category E
+新 O B
+闻 O E
+。 O S
+PLAY
+
+我 O S
+要 O S
+听 O S
+昆 B-location_city B
+明 E-location_city E
+新 O B
+闻 O E
+。 O S
+PLAY
+
+给 O S
+我 O S
+找 O B
+到 O E
+今 B-datetime_date B
+天 E-datetime_date E
+的 O S
+新 O B
+闻 O E
+。 O S
+PLAY
+
+我 O S
+朗 O B
+诵 O E
+唐 S-dynasty B
+诗 O E
+。 O S
+QUERY
+
+背 O B
+离 B-name E
+骚 E-name S
+给 O S
+我 O S
+听 O S
+。 O S
+QUERY
+
+背 O B
+诵 O E
+悯 B-name B
+农 E-name E
+。 O S
+QUERY
+
+读 O S
+一 O S
+首 O S
+古 O B
+诗 O E
+给 O S
+我 O S
+听 O S
+吧 O S
+！ O S
+DEFAULT
+
+来 O S
+首 O S
+山 B-name B
+口 E-name E
+。 O S
+QUERY
+
+给 O S
+我 O S
+搜 O B
+索 O E
+唐 S-dynasty B
+诗 O E
+。 O S
+QUERY
+
+请 O S
+帮 O S
+我 O S
+调 O B
+频 O E
+1 B-code B
+0 I-code I
+5 E-code E
+山 B-name B
+东 I-name E
+人 I-name B
+民 I-name E
+广 I-name B
+播 I-name E
+电 I-name B
+台 I-name E
+生 I-name B
+活 I-name E
+频 I-name B
+道 E-name E
+LAUNCH
+
+我 O S
+好 O B
+想 O E
+听 O S
+新 B-name B
+城 I-name E
+知 I-name B
+讯 I-name I
+台 E-name E
+LAUNCH
+
+那 O S
+就 O S
+来 O S
+个 O S
+字 B-category B
+谜 E-category E
+吧 O S
+！ O S
+QUERY
+
+查 O B
+询 O E
+华 B-name B
+峰 I-name E
+氨 I-name B
+纶 E-name E
+的 O S
+股 O B
+票 O E
+QUERY
+
+帮 O S
+我 O S
+查 O S
+一 O B
+下 O E
+江 B-name B
+西 I-name E
+铜 I-name B
+业 E-name E
+股 O B
+票 O E
+QUERY
+
+呼 O B
+叫 O E
+小 B-name B
+惠 E-name E
+DIAL
+
+打 O S
+电 O B
+话 O E
+给 O S
+陈 B-name B
+正 I-name I
+成 E-name E
+DIAL
+
+帮 O S
+我 O S
+搜 O B
+索 O E
+一 O B
+下 O E
+宜 B-startLoc_city B
+春 E-startLoc_city E
+到 O S
+长 B-endLoc_city B
+沙 E-endLoc_city E
+的 O S
+火 O B
+车 O E
+QUERY
+
+查 O B
+询 O E
+武 B-startLoc_city B
+汉 E-startLoc_city E
+到 O S
+茂 B-endLoc_city B
+名 E-endLoc_city E
+的 O S
+火 O B
+车 O E
+QUERY
+
+翻 O B
+译 O E
+睡 B-content B
+觉 I-content E
+了 E-content S
+TRANSLATION
+
+明 B-content B
+天 I-content E
+有 I-content S
+什 I-content B
+么 I-content E
+活 I-content B
+动 E-content E
+用 O S
+英 B-target B
+语 E-target E
+怎 O B
+么 O E
+讲 O S
+TRANSLATION
+
+我 B-content S
+想 I-content S
+吃 I-content S
+汉 I-content B
+堡 I-content I
+包 E-content E
+的 O S
+英 B-target B
+文 E-target E
+怎 O B
+么 O E
+说 O S
+TRANSLATION
+
+午 B-name B
+夜 I-name E
+凶 I-name B
+铃 E-name E
+QUERY
+
+最 B-timeDescr B
+新 E-timeDescr E
+电 B-category B
+影 E-category E
+QUERY
+
+一 B-name B
+路 I-name E
+向 I-name S
+西 E-name S
+QUERY
+
+叶 B-name B
+落 I-name E
+长 I-name B
+安 E-name E
+电 B-category B
+视 I-category I
+剧 E-category E
+QUERY
+
+需 O B
+要 O E
+你 O S
+帮 O S
+我 O S
+推 O B
+荐 O E
+一 O S
+下 O S
+电 B-category B
+影 E-category E
+QUERY
+
+中 B-name B
+国 I-name E
+霸 I-name B
+王 I-name I
+花 E-name E
+QUERY
+
+抬 B-name B
+头 I-name E
+见 I-name B
+喜 E-name E
+QUERY
+
+好 B-scoreDescr B
+评 E-scoreDescr E
+的 O S
+喜 B-tag B
+剧 E-tag E
+电 B-category B
+影 E-category E
+QUERY
+
+2 B-datetime_date B
+0 I-datetime_date I
+1 I-datetime_date I
+2 I-datetime_date I
+年 E-datetime_date E
+美 B-name B
+国 I-name E
+公 I-name B
+告 I-name I
+牌 I-name E
+音 I-name B
+乐 I-name E
+大 I-name B
+奖 I-name E
+颁 I-name B
+奖 I-name I
+礼 E-name E
+QUERY
+
+今 B-datetime_date B
+天 E-datetime_date E
+温 B-subfocus B
+度 E-subfocus E
+是 O S
+多 O B
+少 O E
+QUERY
+
+搜 O B
+索 O E
+声 B-name B
+控 I-name E
+安 I-name B
+卓 E-name E
+软 O B
+件 O E
+QUERY
+
+打 O B
+开 O E
+天 B-name B
+天 I-name E
+动 I-name B
+听 E-name E
+播 O B
+放 O I
+站 O E
+你 O S
+名 O B
+下 O E
+LAUNCH
+
+打 O B
+开 O E
+应 O B
+用 O E
+程 O B
+序 O E
+钱 B-name B
+包 E-name E
+LAUNCH
+
+音 B-name B
+乐 I-name E
+播 I-name B
+放 I-name I
+器 E-name E
+LAUNCH
+
+嗯 O S
+打 O B
+开 O E
+相 B-name B
+机 E-name E
+LAUNCH
+
+把 O S
+u B-name B
+c E-name E
+打 O B
+开 O E
+啊 O S
+LAUNCH
+
+打 O B
+开 O E
+搜 B-name B
+狐 I-name E
+微 I-name B
+博 E-name E
+LAUNCH
+
+怎 O B
+么 O E
+坐 O B
+车 O E
+去 O S
+广 B-Dest B
+州 E-Dest E
+？ O S
+QUERY
+
+在 O S
+菏 B-Src B
+泽 E-Src E
+怎 O B
+么 O E
+坐 O S
+去 O S
+北 B-Dest B
+京 E-Dest E
+的 O S
+车 O S
+。 O S
+QUERY
+
+宁 B-Src B
+波 E-Src E
+到 O S
+岳 B-Dest B
+阳 E-Dest E
+的 O S
+汽 O B
+车 O E
+。 O S
+QUERY
+
+昭 B-Src B
+通 E-Src E
+到 O S
+南 B-Dest B
+昌 E-Dest E
+的 O S
+汽 O B
+车 O E
+。 O S
+QUERY
+
+查 O S
+一 O B
+下 O E
+运 B-Src B
+城 E-Src E
+到 O S
+临 B-Dest B
+汾 E-Dest E
+的 O S
+汽 O B
+车 O E
+。 O S
+QUERY
+
+上 B-Src B
+海 E-Src E
+到 O S
+合 B-Dest B
+肥 E-Dest E
+可 O B
+以 O E
+到 O S
+哪 O S
+坐 O S
+车 O S
+QUERY
+
+这 O B
+个 O E
+新 O B
+闻 O E
+有 O B
+意 O I
+思 O E
+吗 O S
+PLAY
+
+我 O S
+给 O S
+你 O S
+打 O S
+电 O B
+话 O I
+行 O E
+吗 O S
+DIAL
+
+北 B-location_city B
+京 E-location_city E
+下 O B
+雨 S-subfocus E
+了 O S
+吗 O S
+你 O S
+个 O S
+蠢 O B
+蛋 O E
+QUERY
+
+给 O S
+我 O S
+查 O S
+一 O B
+下 O E
+最 O B
+近 O E
+在 O S
+播 O S
+哪 O B
+些 O E
+电 O B
+影 O E
+QUERY
+
+那 O S
+你 O S
+查 O S
+一 O B
+下 O E
+最 B-timeDescr B
+近 E-timeDescr E
+的 O S
+热 B-popularity B
+门 E-popularity E
+电 B-category B
+影 E-category E
+是 O S
+什 O B
+么 O E
+？ O S
+QUERY
+
+把 O S
+张 B-name B
+玉 I-name I
+娟 E-name E
+的 O S
+手 B-category B
+机 E-category E
+号 O B
+码 O E
+发 O B
+送 O E
+给 O S
+吴 B-receiver B
+伟 E-receiver E
+SENDCONTACTS
+
+把 O S
+小 B-name S
+新 E-name S
+的 O S
+号 O B
+码 O E
+发 O B
+给 O E
+徐 B-receiver B
+云 I-receiver I
+蔚 E-receiver E
+SENDCONTACTS
+
+把 O S
+李 B-name B
+文 I-name I
+鼎 E-name E
+的 O S
+号 O B
+码 O E
+发 O S
+给 O S
+谢 B-receiver B
+服 I-receiver E
+全 E-receiver S
+SENDCONTACTS
+
+把 O S
+唐 B-name B
+玉 I-name I
+明 E-name E
+的 O S
+手 B-category B
+机 E-category E
+号 O B
+码 O E
+发 O B
+给 O E
+李 B-receiver B
+康 E-receiver E
+SENDCONTACTS
+
+新 O B
+建 O E
+联 O B
+系 O I
+人 O E
+1 B-code B
+8 I-code I
+6 I-code I
+2 I-code I
+2 I-code I
+6 I-code I
+2 I-code I
+5 I-code I
+4 I-code I
+9 I-code I
+0 E-code E
+CREATE
+
+把 O S
+许 B-name B
+琦 I-name I
+彪 E-name E
+的 O S
+号 O B
+码 O E
+发 O B
+给 O E
+徐 B-receiver B
+鹏 E-receiver E
+SENDCONTACTS
+
+红 B-dishName B
+烧 I-dishName E
+猪 I-dishName B
+脚 E-dishName E
+怎 O B
+么 O E
+做 O S
+啊 O S
+？ O S
+QUERY
+
+冯 O B
+沙 O E
+排 B-ingredient B
+骨 E-ingredient E
+怎 O B
+么 O E
+做 O S
+？ O S
+QUERY
+
+炖 B-dishName B
+鲢 I-dishName I
+鱼 E-dishName E
+怎 O B
+么 O E
+做 O S
+？ O S
+QUERY
+
+陈 O B
+醋 O E
+排 B-ingredient B
+骨 E-ingredient E
+的 O S
+做 O B
+法 O E
+。 O S
+QUERY
+
+辣 B-dishName B
+酸 I-dishName E
+菜 E-dishName B
+鱼 S-ingredient E
+怎 O B
+么 O E
+做 O S
+了 O S
+。 O S
+QUERY
+
+炒 B-dishName B
+鸡 I-dishName I
+蛋 E-dishName E
+， O S
+需 O B
+要 O E
+， O S
+哪 O B
+些 O E
+材 O B
+料 O E
+？ O S
+QUERY
+
+鸽 B-ingredient B
+子 E-ingredient E
+， O S
+怎 O B
+么 O E
+做 O S
+最 O S
+好 O S
+吃 O S
+？ O S
+QUERY
+
+菠 B-dishName B
+萝 I-dishName E
+咕 I-dishName S
+老 I-dishName B
+肉 E-dishName E
+的 O S
+做 O B
+法 O E
+QUERY
+
+炒 B-dishName S
+四 I-dishName S
+季 I-dishName S
+豆 E-dishName S
+。 O S
+QUERY
+
+白 B-dishName B
+灼 I-dishName E
+基 I-dishName S
+尾 I-dishName B
+虾 E-dishName E
+的 O S
+做 O B
+法 O E
+。 O S
+QUERY
+
+还 O S
+路 O B
+阻 O E
+少 O S
+茶 B-dishName B
+汤 E-dishName E
+的 O S
+做 O B
+法 O E
+。 O S
+QUERY
+
+水 B-dishName B
+果 I-dishName E
+沙 I-dishName B
+拉 E-dishName E
+怎 O B
+么 O E
+做 O S
+？ O S
+QUERY
+
+冰 B-dishName B
+糖 I-dishName E
+葫 I-dishName B
+芦 E-dishName E
+怎 O B
+么 O E
+做 O S
+？ O S
+你 O S
+？ O S
+女 O B
+子 O E
+。 O S
+QUERY
+
+如 O B
+何 O E
+做 O S
+芝 B-dishName B
+麻 I-dishName I
+糊 E-dishName E
+。 O S
+QUERY
+
+如 O B
+何 O E
+做 O S
+西 B-dishName B
+红 I-dishName I
+柿 I-dishName E
+炒 I-dishName B
+蛋 E-dishName E
+。 O S
+QUERY
+
+回 B-dishName S
+锅 I-dishName B
+肉 E-dishName E
+做 O B
+法 O E
+。 O S
+QUERY
+
+菠 B-dishName B
+萝 I-dishName I
+包 E-dishName E
+怎 O B
+么 O E
+做 O S
+？ O S
+QUERY
+
+鱼 S-ingredient S
+要 O S
+怎 O B
+么 O E
+煮 O S
+才 O S
+好 O S
+吃 O S
+QUERY
+
+怎 O B
+么 O E
+做 O S
+炸 B-dishName B
+鸡 E-dishName E
+QUERY
+
+帮 O S
+我 O S
+找 O S
+一 O B
+下 O E
+凉 B-dishName B
+拌 I-dishName E
+海 I-dishName B
+蜇 E-dishName E
+的 O S
+做 O B
+法 O E
+。 O S
+QUERY
+
+然 O B
+后 O E
+等 O S
+你 O S
+杀 B-dishName S
+猪 I-dishName B
+菜 E-dishName E
+怎 O B
+么 O E
+做 O S
+？ O S
+QUERY
+
+凉 B-dishName B
+面 E-dishName E
+。 O S
+QUERY
+
+川 O B
+崎 O E
+玫 B-ingredient B
+瑰 E-ingredient E
+的 O S
+制 O B
+作 O E
+方 O B
+法 O E
+QUERY
+
+罐 O B
+焖 B-dishName E
+牛 I-dishName B
+肉 E-dishName E
+怎 O B
+么 O E
+做 O S
+？ O S
+QUERY
+
+红 B-dishName B
+烧 I-dishName E
+芋 I-dishName B
+头 E-dishName E
+做 O B
+法 O E
+。 O S
+QUERY
+
+胖 B-ingredient S
+鱼 I-ingredient B
+头 E-ingredient E
+怎 O B
+么 O E
+烧 O S
+？ O S
+QUERY
+
+星 O B
+光 O E
+做 O S
+西 B-dishName B
+红 I-dishName I
+柿 I-dishName E
+炒 I-dishName S
+鸡 I-dishName B
+蛋 E-dishName E
+呢 O S
+！ O S
+QUERY
+
+新 B-dishName B
+奥 I-dishName I
+尔 I-dishName I
+良 I-dishName E
+烤 I-dishName B
+翅 E-dishName E
+的 O S
+做 O B
+法 O E
+QUERY
+
+铁 B-dishName B
+板 I-dishName E
+烧 E-dishName S
+怎 O B
+么 O E
+做 O S
+？ O S
+QUERY
+
+大 B-dishName B
+闸 I-dishName I
+蟹 E-dishName E
+的 O S
+做 O B
+法 O E
+。 O S
+QUERY
+
+苦 B-ingredient B
+瓜 E-ingredient E
+要 O S
+怎 O B
+么 O E
+做 O S
+比 O B
+较 O E
+好 O B
+吃 O E
+QUERY
+
+你 O S
+酸 B-dishName B
+辣 I-dishName I
+土 I-dishName E
+豆 I-dishName B
+丝 E-dishName E
+怎 O B
+么 O E
+做 O S
+？ O S
+QUERY
+
+我 O S
+说 O S
+铁 B-utensil B
+锅 E-utensil E
+炖 B-dishName S
+羊 I-dishName B
+肉 E-dishName E
+怎 O B
+么 O E
+做 O S
+？ O S
+QUERY
+
+我 O S
+想 O S
+知 O B
+道 O E
+皮 B-dishName B
+蛋 I-dishName E
+瘦 I-dishName S
+肉 I-dishName B
+粥 E-dishName E
+是 O S
+怎 O B
+么 O E
+做 O S
+的 O S
+QUERY
+
+怎 O B
+么 O E
+做 O S
+京 B-dishName B
+酱 I-dishName E
+肉 I-dishName B
+丝 E-dishName E
+。 O S
+QUERY
+
+鱼 B-dishName B
+香 I-dishName E
+肉 I-dishName B
+丝 E-dishName E
+， O S
+怎 O B
+么 O E
+做 O S
+？ O S
+不 O S
+？ O S
+QUERY
+
+请 O S
+告 O B
+诉 O E
+我 O S
+清 B-dishName B
+蒸 I-dishName E
+桂 I-dishName B
+鱼 E-dishName E
+怎 O B
+么 O E
+做 O S
+？ O S
+QUERY
+
+煲 B-dishName B
+鸡 I-dishName I
+汤 E-dishName E
+呢 O S
+QUERY
+
+草 B-dishName B
+莓 I-dishName E
+芒 I-dishName B
+果 I-dishName E
+西 I-dishName B
+米 I-dishName I
+露 E-dishName E
+。 O S
+QUERY
+
+米 B-dishName B
+饭 E-dishName E
+怎 O B
+么 O E
+做 O S
+QUERY
+
+臭 B-dishName B
+豆 I-dishName I
+腐 I-dishName E
+汤 E-dishName S
+怎 O B
+么 O E
+烧 O S
+？ O S
+QUERY
+
+鱼 S-ingredient S
+怎 O B
+么 O E
+做 O S
+莱 O S
+QUERY
+
+白 B-dishName B
+切 I-dishName I
+鸡 E-dishName E
+怎 O B
+么 O E
+做 O S
+啊 O S
+？ O S
+QUERY
+
+培 B-dishName B
+根 I-dishName I
+金 I-dishName I
+针 I-dishName I
+菇 E-dishName E
+怎 O B
+么 O E
+做 O S
+？ O S
+QUERY
+
+虾 B-dishName B
+炒 I-dishName I
+蛋 E-dishName E
+怎 O B
+么 O E
+做 O S
+？ O S
+QUERY
+
+怎 O B
+么 O E
+做 O S
+水 B-dishName B
+煮 I-dishName E
+鱼 E-dishName B
+店 O E
+？ O S
+QUERY
+
+秋 B-ingredient B
+葵 E-ingredient E
+怎 O B
+么 O E
+做 O S
+？ O S
+QUERY
+
+螃 B-ingredient B
+蟹 E-ingredient E
+怎 O B
+么 O E
+蒸 O S
+？ O S
+QUERY
+
+我 O S
+要 O S
+全 O B
+部 O E
+回 O B
+复 O E
+REPLAY_ALL
+
+我 O S
+想 O S
+写 O S
+一 O B
+个 O E
+新 O S
+邮 O B
+件 O E
+CREATE
+
+替 O S
+我 O S
+打 O B
+开 O E
+新 O S
+邮 O B
+件 O E
+LAUNCH
+
+我 O S
+要 O S
+回 O B
+复 O E
+这 O S
+条 O S
+邮 O B
+件 O E
+REPLY
+
+中 B-tvchannel B
+央 I-tvchannel E
+一 I-tvchannel S
+套 E-tvchannel S
+什 O B
+么 O E
+时 O B
+候 O E
+有 O S
+建 B-name B
+党 I-name E
+伟 I-name B
+业 E-name E
+QUERY
+
+找 O B
+找 O E
+非 B-name B
+诚 I-name E
+勿 I-name S
+扰 E-name S
+什 O B
+么 O E
+时 O B
+候 O E
+结 O B
+束 O E
+QUERY
+
+你 O S
+， O S
+湖 B-tvchannel B
+南 I-tvchannel E
+卫 I-tvchannel B
+视 E-tvchannel E
+正 O B
+在 O E
+播 O B
+出 O E
+什 O B
+么 O E
+？ O S
+你 O S
+。 O S
+QUERY
+
+搜 O B
+索 O E
+电 B-category B
+视 I-category I
+剧 E-category E
+爱 B-name B
+情 I-name E
+悠 I-name B
+悠 I-name E
+药 I-name B
+草 I-name I
+香 E-name E
+在 O S
+哪 O B
+个 O E
+频 O B
+道 O E
+首 O B
+播 O E
+？ O S
+QUERY
+
+C B-tvchannel B
+C I-tvchannel I
+T I-tvchannel I
+V I-tvchannel E
+- I-tvchannel S
+5 E-tvchannel S
+节 O S
+目 O B
+表 O E
+QUERY
+
+安 B-tvchannel B
+徽 I-tvchannel E
+卫 I-tvchannel B
+视 E-tvchannel E
+今 B-datetime_date B
+天 E-datetime_date E
+晚 B-datetime_time B
+上 E-datetime_time E
+放 O S
+什 O B
+么 O E
+？ O S
+QUERY
+
+c B-tvchannel B
+h I-tvchannel I
+c I-tvchannel E
+高 I-tvchannel B
+清 I-tvchannel E
+电 I-tvchannel B
+影 E-tvchannel E
+昨 B-datetime_date B
+天 E-datetime_date E
+晚 B-datetime_time B
+上 E-datetime_time E
+的 O S
+节 O B
+目 O E
+QUERY
+
+查 O B
+查 O E
+1 B-date B
+3 I-date E
+年 E-date S
+的 O S
+一 B-name S
+站 I-name S
+到 I-name B
+底 E-name E
+QUERY
+
+咱 B-name B
+们 I-name E
+结 I-name B
+婚 I-name E
+吧 E-name S
+什 O B
+么 O E
+时 O B
+候 O E
+播 O B
+出 O E
+DATE_QUERY
+
+上 B-tvchannel B
+海 I-tvchannel E
+东 I-tvchannel B
+方 I-tvchannel E
+卫 I-tvchannel B
+视 E-tvchannel E
+现 B-datetime_time B
+在 E-datetime_time E
+在 O S
+播 O B
+放 O E
+什 O B
+么 O E
+？ O S
+QUERY
+
+湖 B-tvchannel B
+南 I-tvchannel E
+卫 I-tvchannel B
+视 E-tvchannel E
+明 B-datetime_date B
+天 E-datetime_date E
+播 O S
+什 O B
+么 O E
+节 O B
+目 O E
+QUERY
+
+北 B-tvchannel B
+京 I-tvchannel E
+卡 I-tvchannel B
+酷 E-tvchannel I
+熊 B-name E
+出 I-name B
+没 E-name E
+QUERY
+
+C B-tvchannel B
+C I-tvchannel I
+T I-tvchannel I
+V I-tvchannel E
+- I-tvchannel S
+1 I-tvchannel B
+0 E-tvchannel E
+的 O S
+百 B-name S
+家 I-name S
+讲 I-name B
+坛 E-name E
+QUERY
+
+蒽 O B
+蒽 O E
+江 B-tvchannel B
+苏 I-tvchannel E
+卫 I-tvchannel B
+视 E-tvchannel E
+有 O S
+什 O B
+么 O E
+好 O S
+节 O B
+目 O E
+吗 O S
+？ O S
+QUERY
+
+现 B-datetime_time B
+在 E-datetime_time E
+有 O S
+什 O B
+么 O E
+好 O S
+的 O S
+电 B-category B
+视 I-category I
+剧 E-category E
+。 O S
+QUERY
+
+那 O S
+中 B-tvchannel B
+央 I-tvchannel E
+六 I-tvchannel S
+台 E-tvchannel S
+明 B-datetime_date B
+天 E-datetime_date E
+演 O S
+什 O B
+么 O E
+节 O B
+目 O E
+QUERY
+
+现 B-datetime_time B
+在 E-datetime_time E
+中 B-tvchannel B
+央 I-tvchannel E
+一 I-tvchannel S
+台 E-tvchannel S
+在 O S
+播 O S
+什 O B
+么 O E
+节 O B
+目 O E
+？ O S
+QUERY
+
+科 B-location_poi S
+大 I-location_poi S
+讯 I-location_poi B
+飞 E-location_poi E
+在 O S
+哪 O B
+里 O E
+呀 O S
+POSITION
+
+从 O S
+这 O B
+里 O E
+到 O S
+市 B-endLoc_poi B
+中 I-endLoc_poi I
+心 E-endLoc_poi E
+怎 O B
+么 O E
+走 O S
+ROUTE
+
+查 O B
+询 O E
+北 B-startLoc_city B
+京 E-startLoc_city E
+到 O S
+上 B-endLoc_city B
+海 E-endLoc_city E
+的 O S
+路 O B
+线 O E
+ROUTE
+
+到 O S
+郑 B-endLoc_city B
+州 E-endLoc_city E
+火 B-endLoc_poi B
+车 I-endLoc_poi I
+站 E-endLoc_poi E
+ROUTE
+
+宁 B-location_city B
+波 E-location_city E
+机 B-location_poi B
+场 E-location_poi E
+在 O S
+哪 O B
+里 O E
+POSITION
+
+人 B-location_poi B
+民 I-location_poi E
+公 I-location_poi B
+园 E-location_poi E
+在 O S
+哪 O B
+里 O E
+POSITION
+
+我 O B
+们 O E
+现 O B
+在 O E
+在 O S
+什 O B
+么 O E
+地 O B
+方 O E
+POSITION
+
+南 B-endLoc_poi B
+光 I-endLoc_poi E
+集 I-endLoc_poi B
+团 E-endLoc_poi E
+怎 O B
+么 O E
+走 O S
+ROUTE
+
+昆 B-location_area B
+山 E-location_area E
+大 B-location_poi B
+润 I-location_poi E
+发 E-location_poi S
+在 O S
+哪 O B
+里 O E
+POSITION
+
+从 O S
+新 B-startLoc_poi B
+加 I-startLoc_poi I
+坡 I-startLoc_poi E
+花 I-startLoc_poi B
+园 E-startLoc_poi E
+怎 O B
+么 O E
+去 O S
+宁 B-endLoc_poi B
+溪 I-endLoc_poi I
+路 E-endLoc_poi E
+ROUTE
+
+平 B-endLoc_area B
+阳 E-endLoc_area E
+怎 O B
+么 O E
+走 O S
+吗 O S
+ROUTE
+
+广 B-location_province B
+东 I-location_province I
+省 E-location_province E
+英 B-location_area B
+德 E-location_area E
+在 O S
+哪 O B
+里 O E
+POSITION
+
+带 O S
+我 O S
+去 O S
+新 B-endLoc_poi S
+都 I-endLoc_poi S
+会 E-endLoc_poi S
+ROUTE
+
+7 B-datetime_date B
+月 I-datetime_date E
+1 I-datetime_date B
+3 I-datetime_date I
+号 E-datetime_date E
+广 B-name B
+州 I-name E
+恒 I-name B
+大 E-name E
+俱 O B
+乐 O I
+部 O E
+的 O S
+比 O B
+赛 O E
+有 O S
+哪 O B
+些 O E
+QUERY
+
+中 B-category S
+超 E-category S
+比 O B
+赛 O E
+时 O B
+间 O E
+多 O B
+少 O E
+啊 O S
+？ O S
+QUERY
+
+给 O S
+张 B-name B
+金 I-name I
+波 E-name E
+发 O B
+短 O E
+消 O B
+息 O E
+今 B-content B
+天 I-content E
+中 I-content B
+午 I-content E
+一 I-content B
+起 I-content E
+吃 I-content B
+饭 E-content E
+SEND
+
+发 O B
+短 O I
+信 O E
+给 O S
+刘 B-name B
+文 E-name I
+说 O E
+明 B-content B
+天 I-content E
+下 I-content B
+午 I-content E
+五 I-content B
+点 I-content E
+有 I-content S
+聚 I-content B
+会 E-content E
+SEND
+
+发 O B
+短 O I
+信 O E
+给 O S
+张 B-name B
+三 E-name E
+说 O S
+“ O S
+画 B-content B
+皮 I-content E
+2 I-content S
+在 I-content S
+哪 I-content B
+个 I-content E
+台 I-content S
+播 I-content B
+出 E-content E
+” O S
+SEND
+
+给 O S
+靖 B-name B
+哥 I-name I
+哥 E-name E
+发 O S
+短 O B
+信 O E
+说 O S
+我 B-content S
+不 I-content S
+回 I-content B
+来 I-content E
+吃 I-content B
+饭 I-content E
+了 E-content S
+SEND
+
+我 O S
+现 O B
+在 O E
+要 O S
+发 O S
+一 O S
+条 O S
+信 O B
+息 O E
+SEND
+
+给 O S
+原 B-name B
+波 E-name I
+发 O E
+短 O B
+信 O E
+SEND
+
+把 O S
+王 B-name B
+建 I-name I
+春 E-name E
+的 O S
+电 O B
+话 O E
+号 O B
+码 O E
+发 O S
+给 O S
+张 B-receiver B
+学 I-receiver I
+政 E-receiver E
+SENDCONTACTS
+
+给 O S
+黄 B-name B
+杠 E-name E
+发 O S
+短 O B
+信 O E
+SEND
+
+发 O S
+信 O B
+息 O E
+给 O S
+熊 B-name B
+伟 E-name E
+SEND
+
+帮 O S
+我 O S
+发 O B
+条 O E
+短 O B
+信 O E
+吧 O S
+SEND
+
+帮 O S
+我 O S
+找 O S
+一 O S
+首 O S
+我 O S
+的 O S
+好 B-song S
+兄 I-song B
+弟 E-song E
+SEARCH
+
+随 O B
+便 O E
+来 O B
+首 O E
+刘 B-artist B
+德 I-artist I
+华 E-artist E
+的 O S
+歌 O S
+。 O S
+PLAY
+
+放 O B
+歌 O E
+， O S
+天 B-song B
+亮 I-song E
+了 E-song S
+。 O S
+PLAY
+
+搜 O B
+索 O E
+歌 O B
+曲 O E
+公 B-song B
+路 E-song E
+SEARCH
+
+我 O S
+想 O S
+听 O S
+水 B-song B
+墨 I-song I
+丹 I-song I
+青 E-song E
+这 O S
+首 O S
+歌 O S
+PLAY
+
+我 O S
+听 O S
+首 O S
+歌 O S
+PLAY
+
+找 O S
+一 O S
+首 O S
+游 B-artist S
+鸿 I-artist B
+明 E-artist E
+的 O S
+音 O B
+乐 O E
+SEARCH
+
+听 O S
+时 B-song B
+间 I-song E
+煮 I-song B
+雨 E-song E
+这 O S
+首 O S
+歌 O S
+PLAY
+
+帮 O S
+我 O S
+查 O S
+一 O B
+下 O E
+周 B-artist B
+杰 I-artist I
+伦 E-artist E
+的 O S
+歌 O S
+SEARCH
+
+我 O S
+想 O S
+听 O S
+首 O S
+歌 O S
+PLAY
+
+我 O S
+想 O S
+听 O S
+1 B-song B
+1 I-song E
+年 E-song S
+， O S
+这 O S
+首 O S
+歌 O S
+哦 O S
+。 O S
+PLAY
+
+我 O S
+要 O S
+点 O S
+一 O S
+首 O S
+小 B-song S
+星 I-song B
+星 E-song E
+PLAY
+
+我 O S
+想 O S
+听 O S
+春 B-song B
+天 I-song E
+里 E-song S
+这 O S
+首 O S
+歌 O S
+PLAY
+
+播 O B
+放 O E
+田 B-artist B
+园 E-artist E
+的 O S
+歌 O S
+PLAY
+
+播 O B
+放 O I
+郁 B-artist E
+可 I-artist B
+唯 E-artist E
+的 O S
+歌 O S
+PLAY
+
+请 O S
+给 O S
+我 O S
+讲 O S
+一 O B
+下 O E
+今 B-datetime_date B
+天 E-datetime_date E
+的 O S
+新 O B
+闻 O E
+吧 O S
+！ O S
+PLAY
+
+今 B-datetime_date B
+天 E-datetime_date E
+的 O S
+新 O B
+闻 O E
+， O S
+欲 O S
+PLAY
+
+我 O S
+也 O S
+听 O S
+新 O B
+闻 O E
+。 O S
+PLAY
+
+多 O S
+想 O S
+听 O S
+新 O B
+闻 O E
+， O S
+哦 O S
+。 O S
+PLAY
+
+帮 O S
+我 O S
+搜 O B
+索 O E
+一 O B
+下 O E
+今 B-datetime_date B
+天 E-datetime_date E
+的 O S
+新 O B
+闻 O E
+PLAY
+
+看 O S
+今 B-datetime_date B
+天 E-datetime_date E
+的 O S
+新 O B
+闻 O E
+。 O S
+PLAY
+
+我 O S
+想 O S
+听 O S
+足 B-category B
+球 E-category I
+类 O E
+新 O B
+闻 O E
+PLAY
+
+看 O S
+一 O B
+下 O E
+今 B-datetime_date B
+天 E-datetime_date E
+有 O S
+什 O B
+么 O E
+新 O B
+闻 O E
+？ O S
+PLAY
+
+我 O S
+要 O S
+听 O S
+最 B-datetime_date B
+近 E-datetime_date E
+的 O S
+新 O B
+闻 O E
+。 O S
+PLAY
+
+讯 O B
+飞 O E
+语 O B
+音 O E
+我 O S
+想 O S
+知 O B
+道 O E
+山 B-location_province B
+东 I-location_province I
+省 E-location_province E
+东 B-location_city B
+营 I-location_city I
+市 E-location_city E
+今 B-datetime_date B
+天 E-datetime_date E
+的 O S
+新 O B
+闻 O E
+。 O S
+PLAY
+
+加 O S
+， O S
+听 O S
+新 O B
+闻 O E
+。 O S
+PLAY
+
+搜 O B
+索 O E
+最 B-keyword B
+新 E-keyword E
+新 O B
+闻 O E
+PLAY
+
+今 B-datetime_date B
+天 E-datetime_date E
+的 O S
+新 O B
+闻 O E
+有 O S
+什 O B
+么 O E
+？ O S
+PLAY
+
+我 O S
+要 O S
+听 O S
+新 O B
+闻 O E
+， O S
+给 O S
+我 O S
+数 O S
+。 O S
+PLAY
+
+噗 O S
+我 O S
+想 O S
+听 O S
+新 O B
+闻 O E
+。 O S
+PLAY
+
+查 O B
+找 O E
+校 B-category B
+园 E-category E
+小 O B
+说 O E
+沙 B-name B
+漏 E-name E
+第 O B
+二 O E
+部 O S
+QUERY
+
+我 O S
+要 O S
+看 O S
+魔 B-category B
+幻 I-category E
+学 I-category B
+院 E-category E
+小 O B
+说 O E
+QUERY
+
+我 O S
+要 O S
+看 O S
+饶 B-author B
+雪 I-author I
+漫 E-author E
+的 O S
+小 O B
+说 O E
+左 B-name B
+耳 E-name E
+QUERY
+
+您 O S
+给 O S
+我 O S
+来 O S
+一 O S
+首 O S
+， O S
+夏 B-author B
+明 I-author I
+翰 E-author E
+的 O S
+就 B-name S
+义 I-name B
+诗 E-name E
+。 O S
+QUERY
+
+嗯 O S
+， O S
+你 O S
+来 O S
+一 O S
+首 O S
+李 B-author B
+白 E-author E
+的 O S
+诗 O B
+词 O E
+， O S
+的 O S
+。 O S
+QUERY
+
+来 O B
+首 O E
+甘 B-name B
+露 I-name I
+寺 E-name E
+。 O S
+QUERY
+
+我 O S
+要 O S
+听 O S
+宋 S-dynasty B
+词 O E
+。 O S
+QUERY
+
+雄 B-keyword B
+关 I-keyword E
+漫 I-keyword B
+道 I-keyword E
+真 I-keyword S
+如 I-keyword S
+铁 E-keyword B
+下 B-queryField E
+一 I-queryField S
+句 E-queryField S
+是 O S
+什 O B
+么 O E
+？ O S
+QUERY
+
+床 B-keyword S
+前 I-keyword S
+明 I-keyword B
+月 I-keyword E
+光 E-keyword S
+下 B-queryField S
+一 I-queryField S
+句 E-queryField S
+是 O S
+怎 O B
+么 O E
+说 O S
+QUERY
+
+你 O S
+给 O S
+我 O S
+背 O S
+一 O S
+首 O S
+白 B-author B
+居 I-author I
+易 E-author E
+的 O S
+诗 O S
+。 O S
+QUERY
+
+o O B
+k O E
+好 O S
+， O S
+来 O S
+首 O S
+李 B-author B
+白 E-author E
+的 O S
+诗 O B
+词 O E
+。 O S
+QUERY
+
+呵 O B
+呵 O E
+， O S
+背 O S
+首 O S
+诗 O S
+来 O B
+听 O E
+。 O S
+DEFAULT
+
+给 O S
+我 O S
+背 O S
+个 O S
+李 B-author B
+白 E-author E
+的 O S
+诗 O S
+。 O S
+QUERY
+
+读 O B
+句 O I
+诗 O E
+来 O S
+听 O B
+听 O E
+。 O S
+DEFAULT
+
+朗 O B
+读 O E
+游 B-name B
+子 I-name I
+吟 E-name E
+。 O S
+QUERY
+
+那 O S
+就 O S
+来 O S
+一 O S
+首 O S
+李 B-author B
+白 E-author E
+的 O S
+诗 O B
+词 O E
+吗 O S
+？ O S
+QUERY
+
+背 O S
+屈 B-author B
+原 E-author E
+的 O S
+离 B-name B
+骚 E-name E
+QUERY
+
+背 O S
+一 O S
+首 O S
+， O S
+纳 B-author B
+兰 I-author I
+容 I-author I
+若 E-author E
+的 O S
+词 O S
+。 O S
+QUERY
+
+我 O S
+背 O S
+一 O B
+下 O E
+春 B-name B
+晓 E-name E
+。 O S
+QUERY
+
+搜 O B
+索 O E
+古 O B
+诗 O E
+绝 B-name B
+句 E-name E
+。 O S
+QUERY
+
+让 O S
+我 O S
+猜 O S
+个 O S
+谜 B-category B
+语 E-category E
+。 O S
+QUERY
+
+讲 O S
+一 O B
+个 O E
+谜 B-category B
+语 E-category E
+和 O S
+答 O B
+案 O E
+。 O S
+QUERY
+
+来 O S
+一 O B
+个 O E
+字 B-category B
+谜 E-category E
+， O S
+二 O S
+。 O S
+QUERY
+
+查 O S
+个 O S
+字 B-category B
+谜 E-category E
+。 O S
+QUERY
+
+给 O S
+我 O S
+讲 O S
+一 O B
+个 O E
+谜 B-category B
+语 E-category E
+吧 O S
+！ O S
+QUERY
+
+来 O S
+个 O S
+字 B-category B
+谜 E-category E
+吗 O S
+？ O S
+QUERY
+
+来 O S
+个 O S
+灯 B-category B
+谜 E-category E
+吧 O S
+！ O S
+QUERY
+
+不 O S
+是 O S
+我 O S
+是 O S
+说 O S
+我 O S
+给 O S
+你 O S
+猜 O S
+个 O S
+谜 B-category B
+语 E-category E
+吧 O S
+！ O S
+QUERY
+
+永 B-name B
+辉 I-name E
+超 I-name B
+市 E-name E
+股 O B
+份 O E
+的 O S
+价 O B
+格 O E
+QUERY
+
+看 O S
+一 O B
+下 O E
+中 B-name B
+式 I-name E
+传 I-name B
+媒 E-name E
+股 O B
+票 O E
+的 O S
+涨 O B
+跌 O I
+幅 O E
+RISERATE_QUERY
+
+腾 B-name B
+讯 E-name E
+公 O B
+司 O E
+的 O S
+股 O B
+票 O E
+QUERY
+
+查 O B
+询 O E
+三 B-name B
+一 I-name E
+重 I-name B
+工 E-name E
+股 O B
+票 O E
+QUERY
+
+中 B-name B
+国 I-name E
+石 I-name B
+化 E-name E
+的 O S
+股 O B
+票 O E
+是 O S
+涨 O S
+还 O S
+是 O S
+跌 O S
+RISERATE_QUERY
+
+科 B-name S
+大 I-name S
+讯 I-name B
+飞 E-name E
+今 O B
+天 O E
+的 O S
+股 O B
+票 O E
+QUERY
+
+人 B-name B
+福 I-name E
+医 I-name B
+药 E-name E
+股 O B
+票 O E
+QUERY
+
+拨 O B
+号 O E
+曹 B-name B
+兴 I-name I
+发 E-name E
+DIAL
+
+打 O S
+电 O B
+话 O E
+给 O S
+魏 B-name B
+文 I-name I
+强 E-name E
+DIAL
+
+打 O S
+电 O B
+话 O E
+陈 B-name B
+雪 I-name I
+莉 E-name E
+DIAL
+
+打 O S
+电 O B
+话 O E
+给 O S
+美 B-name B
+华 E-name E
+DIAL
+
+打 O S
+电 O B
+话 O E
+给 O S
+三 B-name B
+路 I-name I
+店 E-name E
+DIAL
+
+从 O S
+合 B-startLoc_city B
+肥 E-startLoc_city E
+到 O S
+北 B-endLoc_city B
+京 E-endLoc_city E
+的 O S
+列 O B
+车 O E
+QUERY
+
+从 O S
+长 B-startLoc_city B
+沙 E-startLoc_city E
+到 O S
+北 B-endLoc_city B
+京 E-endLoc_city E
+的 O S
+列 O B
+车 O E
+QUERY
+
+中 B-content B
+国 I-content E
+制 E-content B
+用 O E
+英 B-target B
+文 E-target E
+怎 O B
+么 O E
+说 O S
+TRANSLATION
+
+香 B-content B
+蕉 E-content E
+的 O S
+英 B-target B
+语 E-target E
+怎 O B
+么 O E
+说 O S
+TRANSLATION
+
+今 B-content B
+天 I-content E
+是 I-content S
+个 I-content S
+好 I-content B
+日 I-content I
+子 E-content E
+的 O S
+英 B-target B
+文 E-target E
+怎 O B
+么 O E
+讲 O S
+TRANSLATION
+
+五 S-content S
+用 O S
+英 B-target B
+语 E-target E
+怎 O B
+么 O E
+说 O S
+TRANSLATION
+
+书 B-content B
+包 E-content E
+用 O S
+英 B-target B
+语 E-target E
+怎 O B
+么 O E
+说 O S
+TRANSLATION
+
+大 B-content B
+家 I-content E
+今 I-content B
+天 I-content E
+心 I-content B
+情 I-content E
+如 I-content B
+何 E-content E
+用 O S
+英 B-target B
+语 E-target E
+怎 O B
+么 O E
+说 O S
+TRANSLATION
+
+睡 B-content B
+觉 E-content E
+用 O S
+英 B-target B
+文 E-target E
+怎 O B
+么 O E
+说 O S
+TRANSLATION
+
+我 B-content S
+不 I-content S
+明 I-content B
+白 E-content E
+用 O S
+英 B-target B
+文 E-target E
+怎 O B
+么 O E
+讲 O S
+TRANSLATION
+
+换 O S
+江 B-name B
+苏 I-name E
+卫 I-name B
+视 E-name E
+PLAY
+
+福 B-name B
+建 I-name E
+电 I-name B
+视 I-name I
+台 E-name E
+PLAY
+
+浙 B-name B
+江 I-name I
+台 E-name E
+PLAY
+
+智 B-name B
+慧 I-name I
+树 E-name E
+QUERY
+
+开 B-name B
+心 I-name E
+大 I-name S
+冒 I-name B
+险 E-name E
+QUERY
+
+看 O S
+空 B-name B
+霸 E-name E
+QUERY
+
+我 B-name S
+要 I-name S
+当 I-name S
+八 I-name B
+路 I-name I
+军 E-name E
+QUERY
+
+大 B-name B
+头 I-name E
+儿 I-name B
+子 I-name E
+小 I-name B
+头 I-name E
+爸 I-name B
+爸 E-name E
+QUERY
+
+最 B-name S
+美 I-name S
+的 I-name S
+时 I-name B
+光 E-name E
+QUERY
+
+来 O B
+点 O E
+张 B-artist B
+艺 I-artist I
+谋 E-artist E
+出 B-artistRole B
+演 E-artistRole E
+的 O S
+节 B-category B
+目 E-category E
+QUERY
+
+我 O S
+想 O S
+看 O S
+搞 B-name S
+定 I-name S
+岳 I-name B
+父 I-name E
+大 I-name B
+人 E-name E
+电 B-category B
+影 E-category E
+QUERY
+
+电 B-category B
+影 E-category E
+中 B-name B
+国 I-name E
+合 I-name B
+伙 I-name I
+人 E-name E
+QUERY
+
+好 O B
+无 O I
+聊 O I
+哇 O E
+有 O S
+什 O B
+么 O E
+好 B-scoreDescr B
+看 E-scoreDescr E
+的 O S
+电 B-category B
+影 E-category E
+QUERY
+
+女 B-name B
+人 I-name E
+的 I-name S
+颜 I-name B
+色 E-name E
+六 B-episode B
+十 I-episode I
+九 I-episode E
+集 E-episode S
+QUERY
+
+歧 B-name B
+路 I-name E
+兄 I-name B
+弟 E-name E
+QUERY
+
+爱 B-name S
+在 I-name S
+旅 I-name B
+途 E-name E
+QUERY
+
+狄 B-name B
+仁 I-name I
+杰 I-name E
+之 I-name S
+通 I-name B
+天 I-name E
+帝 I-name B
+国 E-name E
+视 O B
+频 O E
+QUERY
+
+打 O B
+开 O E
+节 B-category B
+目 E-category E
+搜 O B
+索 O E
+QUERY
+
+最 B-timeDescr B
+近 E-timeDescr E
+有 O S
+什 O B
+么 O E
+好 B-scoreDescr B
+看 E-scoreDescr E
+的 O S
+电 B-category B
+视 I-category E
+连 I-category B
+续 I-category I
+剧 E-category E
+武 B-tag S
+打 E-tag S
+的 O S
+。 O S
+QUERY
+
+我 O S
+想 O S
+看 O S
+大 B-name B
+武 I-name E
+当 E-name S
+电 B-category B
+影 E-category E
+QUERY
+
+小 B-name B
+兵 I-name E
+张 I-name B
+嘎 E-name E
+电 B-category B
+影 E-category I
+儿 O E
+QUERY
+
+动 B-tag B
+画 E-tag I
+片 S-category E
+巴 B-name B
+啦 I-name I
+啦 I-name E
+小 I-name S
+魔 I-name B
+仙 E-name E
+QUERY
+
+好 B-scoreDescr B
+看 E-scoreDescr E
+足 B-tag B
+球 I-tag E
+比 I-tag B
+赛 E-tag E
+QUERY
+
+查 O S
+最 O B
+近 O E
+的 O S
+电 O B
+影 O E
+。 O S
+QUERY
+
+陈 B-name B
+真 E-name E
+QUERY
+
+x B-name S
+战 I-name B
+警 E-name E
+第 B-season B
+一 I-season E
+部 E-season S
+QUERY
+
+捍 B-name B
+卫 I-name I
+者 E-name E
+QUERY
+
+查 O B
+找 O E
+9 B-decade B
+0 I-decade E
+年 I-decade B
+代 E-decade E
+好 B-payment B
+评 E-payment E
+的 O S
+武 B-tag B
+侠 E-tag E
+电 B-category B
+影 E-category E
+QUERY
+
+美 B-name B
+好 I-name E
+的 I-name S
+时 I-name B
+代 E-name E
+QUERY
+
+铁 B-name B
+甲 I-name E
+威 I-name B
+虫 E-name E
+QUERY
+
+请 O S
+播 O B
+放 O E
+一 O B
+下 O E
+举 B-name B
+起 I-name E
+手 I-name S
+来 E-name S
+QUERY
+
+搜 O S
+王 B-artist B
+菲 E-artist E
+演 B-tag B
+唱 I-tag I
+会 E-tag E
+QUERY
+
+最 O B
+近 O E
+有 O S
+什 O B
+么 O E
+好 O S
+看 O S
+电 O B
+影 O E
+了 O S
+？ O S
+QUERY
+
+中 B-name B
+华 I-name E
+军 I-name B
+事 I-name I
+网 E-name E
+OPEN
+
+打 O B
+开 O E
+三 B-name B
+星 E-name E
+首 O S
+页 O S
+OPEN
+
+打 O B
+开 O E
+4 B-name B
+3 I-name I
+9 I-name I
+9 I-name E
+小 I-name S
+游 I-name B
+戏 E-name E
+OPEN
+
+给 O S
+我 O S
+打 O B
+开 O E
+百 B-name B
+度 E-name I
+网 O E
+OPEN
+
+打 O B
+开 O E
+科 B-name S
+大 I-name B
+讯 I-name E
+飞 E-name B
+网 O I
+站 O E
+OPEN
+
+进 O S
+你 B-name S
+的 I-name S
+官 I-name B
+网 E-name E
+OPEN
+
