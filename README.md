@@ -8,9 +8,7 @@ Qingpeng Wen, Bi Zeng, Pengfei Wei, Huiting Hu.
 
 ## Architecture
 
-
-
-![](.\Figures\MSIM-SOG.png)
+![]<img src="Figures\MSIM-SOG.png">
 
 
 
