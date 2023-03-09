@@ -24,12 +24,14 @@ We highly suggest you using [Anaconda](https://www.anaconda.com) to manage your 
 ## How to Run it
 
 ### Quick start
-The script **train.py** acts as a main function to the project, you can run the experiments by replacing the unspecified options in the following command with the corresponding values.
+The script **train.py** acts as a main function to the project, you can run the experiments by replacing the unspecified options in the following command with the corresponding values:
 
 ```shell
     CUDA_VISIBLE_DEVICES=$1 python train.py -dd ${dataDir} -sd ${saveDir} -u -bs 16 -dr 0.3 \ 
         -ced 128 -wed 128 -ehd 512 -aod 128 -sed 32 -sdhd 64
 ```
+
+or run the script **train.py** directly via pycharm.
 
 ## Acknowledgement
 
