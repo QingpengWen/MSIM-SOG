@@ -63,7 +63,7 @@ class FusionLayer(nn.Module):
         """
             x1 = tanh(x)
             y1 = tanh(y)
-            f = σ[(bilinear(W1 * x, W2 * y)]
+            f = σ[(W1 * x + W2 * y)]
             x2 = f * x + x
             y2 = (1 - f) * y + y
             fusion =f * x2 + (1 - f) * y2
@@ -245,25 +245,14 @@ class IterModel(nn.Module):
             r_inte = c_inte1
             len_sents = c_slot.shape[1]  # valid_len
             for iter in range(self.__iteration_num):
-                # SF subnet
-                """
-               f = V * tanh(W0 * r_inte + c_slot )
-               r_slot = f * c_slot
-               updates : W, V, r_inte
-               """
+                
                 r_inte0 = r_inte.unsqueeze(1)
                 f_slot = self.__slot_fusion_layer(c_slot, r_inte0)
                 f_slot = self.V_SF(f_slot)  # [1, valid_len, hid_size]
                 f_slot = torch.sum(f_slot, dim=1)  # [1, hid_size]
                 r_slot = f_slot.unsqueeze(1) * c_slot
 
-                # ID subnet
-                """
-                e = V * (W0 * r_slot + (W2 * h + b))
-                α = softmax(e)
-                r_inte = α * r_slot + c_inte
-                updates : W, V, r_slot
-                """
+                
                 f_inte = self.__intent_fusion_layer(r_slot, h)
                 f_inte = torch.sum(f_inte, dim=1)  # [1, hid_size]
                 r_inte = f_inte + c_inte1
