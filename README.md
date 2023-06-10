@@ -1,10 +1,12 @@
 # MSIM-SOG
 
-This repository contains the PyTorch implementation of the paper: 
+This repository contains the `PyTorch` implementation of the paper: 
 
 **A deep joint model of Multi-Slot Intent interaction with Second-Order Gate for Spoken Language Understanding**.
 
-Qingpeng Wen, Bi Zeng, Pengfei Wei, Huiting Hu. 
+[Qingpeng Wen](mailto:wqp@mail2.gdut.edu.cn), [Bi Zeng](mailto:zb9215@gdut.edu.cn), [Pengfei Wei](mailto:wpf@gdut.edu.cn), [Huiting Hu](mailto:huhuiting@zhku.edu.cn)
+
+In the following, we will guide you how to use this repository step by step.
 
 ## Architecture
 
