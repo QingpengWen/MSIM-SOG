@@ -1,6 +1,6 @@
 # MSIM-SOG
 
-This repository contains the `PyTorch` implementation of the paper: 
+This repository contains the `PyTorch` implementation of the paper in the 2023 International Conference on Neural Information Processing (ICONIP2023 Vol.12): 
 
 **A deep joint model of Multi-Slot Intent interaction with Second-Order Gate for Spoken Language Understanding**.
 
