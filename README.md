@@ -39,16 +39,22 @@ or run the script **train.py** directly via pycharm.
 This work was supported in part by the National Science Foundation of China under Grant 62172111, in part by the Natural Science Foundation of Guangdong Province under Grant 2019A1515011056, in part by the Key technology project of Shunde District under Grant 2130218003002.
 
 ## Cite this paper
-@InProceedings{10.1007/978-981-99-8148-9_4,
-author="Wen, Qingpeng
-and Zeng, Bi
-and Wei, Pengfei
-and Hu, Huiting",
+@InProceedings{[10.1007/978-981-99-8148-9_4](https://doi.org/10.1007/978-981-99-8148-9_4),
+
+author="Wen, Qingpeng and Zeng, Bi and Wei, Pengfei and Hu, Huiting",
+
 title="A Deep Joint Model of Multi-scale Intent-Slots Interaction with Second-Order Gate for SLU",
+
 booktitle="Neural Information Processing",
+
 year="2024",
+
 publisher="Springer Nature Singapore",
+
 address="Singapore",
+
 pages="42--54",
+
 isbn="978-981-99-8148-9"
+
 }
