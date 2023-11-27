@@ -1,8 +1,8 @@
 # MSIM-SOG
 
-This repository contains the `PyTorch` implementation of the paper in the 2023 International Conference on Neural Information Processing (***ICONIP2023 Vol.12***): 
+This repository contains the `PyTorch` implementation of the paper in the 2023 International Conference on Neural Information Processing (***[ICONIP2023](http://www.iconip2023.org/) Vol.12***): 
 
-**A deep joint model of Multi-Slot Intent interaction with Second-Order Gate for Spoken Language Understanding**.
+**[A deep joint model of Multi-Slot Intent interaction with Second-Order Gate for Spoken Language Understanding](https://link.springer.com/chapter/10.1007/978-981-99-8148-9_4)**.
 
 [Qingpeng Wen](mailto:wqp@mail2.gdut.edu.cn), [Bi Zeng](mailto:zb9215@gdut.edu.cn), [Pengfei Wei](mailto:wpf@gdut.edu.cn), [Huiting Hu](mailto:huhuiting@zhku.edu.cn)
 
@@ -38,3 +38,17 @@ or run the script **train.py** directly via pycharm.
 
 This work was supported in part by the National Science Foundation of China under Grant 62172111, in part by the Natural Science Foundation of Guangdong Province under Grant 2019A1515011056, in part by the Key technology project of Shunde District under Grant 2130218003002.
 
+## Cite this paper
+@InProceedings{10.1007/978-981-99-8148-9_4,
+author="Wen, Qingpeng
+and Zeng, Bi
+and Wei, Pengfei
+and Hu, Huiting",
+title="A Deep Joint Model of Multi-scale Intent-Slots Interaction with Second-Order Gate for SLU",
+booktitle="Neural Information Processing",
+year="2024",
+publisher="Springer Nature Singapore",
+address="Singapore",
+pages="42--54",
+isbn="978-981-99-8148-9"
+}
