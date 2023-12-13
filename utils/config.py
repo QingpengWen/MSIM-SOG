@@ -13,7 +13,6 @@ import argparse
 parser = argparse.ArgumentParser()
 
 '''Training and evaluation choose.'''
-# parser.add_argument('--do_evaluation', '-eval', action="store_true", default=False)
 parser.add_argument('--do_evaluation', '-eval', action="store_true", default=True)
 
 '''the dataset dictionary'''
@@ -47,8 +46,8 @@ parser.add_argument('--encoder_hidden_dim', '-ehd', type=int, default=256)
 parser.add_argument('--char_attention_hidden_dim', '-cahd', type=int, default=1024)
 parser.add_argument('--word_attention_hidden_dim', '-wahd', type=int, default=1024)
 parser.add_argument('--attention_output_dim', '-aod', type=int, default=128)
-parser.add_argument('--intent_fusion_type', '-ift', type=str, default='bilinear')  # ["add", "rate", "linear", "bilinear", "weight_sigmoid"]
-parser.add_argument('--slot_fusion_type', '-sft', type=str, default='bilinear')    # ["add", "rate", "linear", "bilinear", "weight_sigmoid"]
+parser.add_argument('--intent_fusion_type', '-ift', type=str, default='bilinear')  
+parser.add_argument('--slot_fusion_type', '-sft', type=str, default='bilinear')  
 parser.add_argument('--slot_embedding_dim', '-sed', type=int, default=32)
 parser.add_argument('--intent_embedding_dim', '-ied', type=int, default=16)
 parser.add_argument('--slot_decoder_hidden_dim', '-sdhd', type=int, default=64)
