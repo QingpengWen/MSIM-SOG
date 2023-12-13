@@ -31,8 +31,6 @@ def str2bool(v):
         raise argparse.ArgumentTypeError('Boolean value expected.')
     
 model_file_path = os.path.join(r"save_cais/model")
-# model_file_path = os.path.join(r"save_ecdt/model")
-# model_file_path = r"sss"
 device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
 if __name__ == "__main__":
     args = parser.parse_args()
